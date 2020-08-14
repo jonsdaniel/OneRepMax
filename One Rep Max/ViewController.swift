@@ -25,7 +25,7 @@ class ViewController: UIViewController {
      function calculates one rep max and updates label
      */
     @IBAction func calculateMax(_ sender: UIButton) {
-        let weight = Double(weightText.text!)
+        let weight = Double(weightText.text!) 
         let reps = Double(repsLabel.text!)
         
         // Brzycki formula
